@@ -38,4 +38,3 @@ constraints:
 
 package nothunks
   flags: +vector
- flags: +vector
