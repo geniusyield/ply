@@ -34,7 +34,7 @@ import Data.Aeson.Types (
 import Cardano.Binary as CBOR (DecoderError)
 import qualified Cardano.Binary as CBOR
 
-import PlutusLedgerApi.Common (uncheckedDeserialiseUPLC, serialiseUPLC)
+import PlutusLedgerApi.Common (serialiseUPLC, uncheckedDeserialiseUPLC)
 import UntypedPlutusCore (DeBruijn, DefaultFun, DefaultUni, Program)
 
 import Ply.Core.Serialize.Script (serializeScriptCbor)
