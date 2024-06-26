@@ -1,6 +1,6 @@
 cabal-version: 3.0
 name:          ply-core
-version:       0.5.0
+version:       0.6.0
 author:        Chase <chase@mlabs.city>
 license:       MIT
 
@@ -27,9 +27,9 @@ common common-deps
     , bytestring
     , cardano-binary
     , containers
-    , plutus-core         >= 1.6.0.0 && < 1.8
-    , plutus-ledger-api   >= 1.6.0.0 && < 1.8
-    , plutus-tx           >= 1.6.0.0 && < 1.8
+    , plutus-core        ^>=1.21
+    , plutus-ledger-api  ^>=1.21
+    , plutus-tx          ^>=1.21
     , serialise
     , tagged
     , text
