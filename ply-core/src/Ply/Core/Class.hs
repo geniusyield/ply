@@ -24,12 +24,6 @@ import PlutusLedgerApi.V1 as LedgerCommon hiding (
   TxOut,
  )
 import qualified PlutusLedgerApi.V1 as LedgerV1
-import PlutusLedgerApi.V1.Time as LedgerCommon (
-  DiffMilliSeconds (DiffMilliSeconds),
- )
-import PlutusLedgerApi.V1.Value as LedgerCommon (
-  AssetClass (AssetClass),
- )
 import qualified PlutusTx.Ratio as PlutusTx
 
 type BottomConstraint s t = 'Text s ~ ShowType t
